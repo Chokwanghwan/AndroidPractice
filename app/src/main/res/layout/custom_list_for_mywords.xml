@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:orientation="horizontal"
+    tools:context="com.example.chokwanghwan.myapplication.SimpleList1ActivityFragment"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/englishArea"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.45"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/meanArea"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.45"
+        android:text="Large Text"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:text="X" />
+</LinearLayout>
